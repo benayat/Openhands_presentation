@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OpenHands Presentation Resources</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+            color: #333;
+        }
+        .header {
+            text-align: center;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px 20px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .header p {
+            margin: 10px 0 0 0;
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+        .resources-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+        .resource-card {
+            background: #f8f9fa;
+            border: 1px solid #e9ecef;
+            border-radius: 8px;
+            padding: 20px;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .resource-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        .resource-card h3 {
+            margin-top: 0;
+            color: #495057;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 10px;
+        }
+        .resource-card a {
+            color: #007bff;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .resource-card a:hover {
+            text-decoration: underline;
+        }
+        .main-presentation {
+            background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+            color: white;
+            text-align: center;
+            padding: 30px;
+            border-radius: 10px;
+            margin: 30px 0;
+        }
+        .main-presentation h2 {
+            margin-top: 0;
+            font-size: 2em;
+        }
+        .main-presentation a {
+            display: inline-block;
+            background: white;
+            color: #28a745;
+            padding: 15px 30px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1em;
+            margin-top: 15px;
+            transition: transform 0.2s;
+        }
+        .main-presentation a:hover {
+            transform: scale(1.05);
+        }
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            margin: 30px 0;
+        }
+        .stat {
+            text-align: center;
+            background: #e3f2fd;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        .stat-number {
+            font-size: 2em;
+            font-weight: bold;
+            color: #1976d2;
+        }
+        .stat-label {
+            color: #666;
+            font-size: 0.9em;
+        }
+        .external-links {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 30px 0;
+        }
+        .external-links h3 {
+            margin-top: 0;
+            color: #856404;
+        }
+        .link-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 15px;
+        }
+        .external-link {
+            background: white;
+            padding: 15px;
+            border-radius: 5px;
+            border: 1px solid #ffeaa7;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>OpenHands Presentation Resources</h1>
+        <p>Comprehensive materials for graduate seminar on AI software development agents</p>
+    </div>
+
+    <div class="stats">
+        <div class="stat">
+            <div class="stat-number">57K+</div>
+            <div class="stat-label">GitHub Stars</div>
+        </div>
+        <div class="stat">
+            <div class="stat-number">188+</div>
+            <div class="stat-label">Contributors</div>
+        </div>
+        <div class="stat">
+            <div class="stat-number">15</div>
+            <div class="stat-label">Benchmarks</div>
+        </div>
+        <div class="stat">
+            <div class="stat-number">MIT</div>
+            <div class="stat-label">License</div>
+        </div>
+    </div>
+
+    <div class="main-presentation">
+        <h2>🎯 Main Presentation</h2>
+        <p>Interactive web-based presentation using Reveal.js framework</p>
+        <a href="index.html">Launch Presentation</a>
+    </div>
+
+    <div class="resources-grid">
+        <div class="resource-card">
+            <h3>📋 Presentation Guide</h3>
+            <p>Comprehensive overview and structure of the presentation</p>
+            <ul>
+                <li><a href="README.md">README.md</a> - Complete presentation guide</li>
+                <li><a href="presentation-summary.md">presentation-summary.md</a> - Executive summary</li>
+                <li>Duration: 45-60 minutes including Q&A</li>
+                <li>Target: Graduate CS students and researchers</li>
+            </ul>
+        </div>
+
+        <div class="resource-card">
+            <h3>🎤 Speaker Resources</h3>
+            <p>Detailed notes and guidance for presenters</p>
+            <ul>
+                <li><a href="speaker-notes.md">speaker-notes.md</a> - Detailed speaker notes</li>
+                <li>Timing guidance for each section</li>
+                <li>Discussion prompts and Q&A preparation</li>
+                <li>Technical depth recommendations</li>
+            </ul>
+        </div>
+
+        <div class="resource-card">
+            <h3>🔧 Technical Deep Dive</h3>
+            <p>Advanced technical details and implementation specifics</p>
+            <ul>
+                <li><a href="technical-appendix.md">technical-appendix.md</a> - Technical appendix</li>
+                <li>Architecture implementation details</li>
+                <li>Code examples and configurations</li>
+                <li>Performance optimization strategies</li>
+            </ul>
+        </div>
+
+        <div class="resource-card">
+            <h3>🖥️ Presentation Server</h3>
+            <p>Local web server for hosting the presentation</p>
+            <ul>
+                <li><a href="serve.py">serve.py</a> - Python web server</li>
+                <li>CORS and iframe support enabled</li>
+                <li>Accessible at port 12000</li>
+                <li>Production-ready configuration</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="external-links">
+        <h3>🔗 External Resources</h3>
+        <div class="link-grid">
+            <div class="external-link">
+                <strong>📄 Research Paper</strong><br>
+                <a href="https://arxiv.org/abs/2407.16741" target="_blank">arXiv:2407.16741</a><br>
+                <small>Primary research publication</small>
+            </div>
+            <div class="external-link">
+                <strong>💻 GitHub Repository</strong><br>
+                <a href="https://github.com/All-Hands-AI/OpenHands" target="_blank">All-Hands-AI/OpenHands</a><br>
+                <small>Source code and documentation</small>
+            </div>
+            <div class="external-link">
+                <strong>📚 Documentation</strong><br>
+                <a href="https://docs.all-hands.dev/" target="_blank">docs.all-hands.dev</a><br>
+                <small>Official documentation</small>
+            </div>
+            <div class="external-link">
+                <strong>💬 Community</strong><br>
+                <a href="https://discord.gg/ESHStjSjD4" target="_blank">Discord Server</a><br>
+                <small>Community discussions</small>
+            </div>
+            <div class="external-link">
+                <strong>🌐 Official Website</strong><br>
+                <a href="https://all-hands.dev/" target="_blank">all-hands.dev</a><br>
+                <small>Project homepage</small>
+            </div>
+            <div class="external-link">
+                <strong>📊 SWE-BENCH</strong><br>
+                <a href="https://www.swebench.com/" target="_blank">swebench.com</a><br>
+                <small>Software engineering benchmark</small>
+            </div>
+        </div>
+    </div>
+
+    <div class="resource-card" style="margin: 30px 0;">
+        <h3>🎯 Key Learning Objectives</h3>
+        <p>After this presentation, attendees will understand:</p>
+        <ul>
+            <li><strong>Motivation:</strong> Why we need AI software development agents</li>
+            <li><strong>Architecture:</strong> How OpenHands is designed and implemented</li>
+            <li><strong>Capabilities:</strong> What different agent types can accomplish</li>
+            <li><strong>Safety:</strong> How sandboxed environments ensure secure execution</li>
+            <li><strong>Evaluation:</strong> How to benchmark and compare AI agents</li>
+            <li><strong>Performance:</strong> Current capabilities and limitations</li>
+            <li><strong>Future:</strong> Research opportunities and challenges ahead</li>
+        </ul>
+    </div>
+
+    <div class="resource-card" style="margin: 30px 0;">
+        <h3>🚀 Getting Started</h3>
+        <p>To use these presentation materials:</p>
+        <ol>
+            <li><strong>Review the README:</strong> Understand the presentation structure and objectives</li>
+            <li><strong>Study Speaker Notes:</strong> Familiarize yourself with timing and key points</li>
+            <li><strong>Launch Presentation:</strong> Open <code>index.html</code> in a modern web browser</li>
+            <li><strong>Practice Navigation:</strong> Use arrow keys, space, or click to navigate slides</li>
+            <li><strong>Prepare for Q&A:</strong> Review discussion topics and technical appendix</li>
+            <li><strong>Customize as Needed:</strong> Adapt content for your specific audience</li>
+        </ol>
+    </div>
+
+    <div class="footer">
+        <p><strong>OpenHands: An Open Platform for AI Software Developers as Generalist Agents</strong></p>
+        <p>Presentation materials prepared for graduate computer science seminars</p>
+        <p>Based on research by Xingyao Wang et al. | arXiv:2407.16741 | MIT License</p>
+    </div>
+</body>
+</html>
