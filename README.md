@@ -8,7 +8,7 @@ A comprehensive academic presentation about **OpenHands** (formerly OpenDevin) -
 
 ## 🚀 Quick Start
 
-**[📺 View Live Presentation](https://YOUR_USERNAME.github.io/YOUR_REPO_NAME/)**
+**[📺 View Live Presentation](https://benayat.github.io/Openhands_presentation/)**
 
 *Replace with your actual GitHub Pages URL after deployment*
 
